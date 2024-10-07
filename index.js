@@ -14,7 +14,7 @@ let fullName = "Abdullah Alhumaidhan";
 let yearOfBirth = 2000;
 let hobby = "Watching Documentaries";
 let funFact = "I love road trips";
-let image = "https://cdn.outsideonline.com/wp-content/uploads/2024/03/i-70-colorado_h.jpg";
+const image = "https://cdn.outsideonline.com/wp-content/uploads/2024/03/i-70-colorado_h.jpg";
 
 
 
@@ -35,8 +35,8 @@ let image = "https://cdn.outsideonline.com/wp-content/uploads/2024/03/i-70-color
 
 
 const fullNameString = `My name is ${fullName}`;
-const yearOfBirthString = 'I am ${2024 - yearOfBirth}';
-const hobbyString = 'My hobby is ${hobby}';
+const yearOfBirthString = `I am ${2024 - yearOfBirth}`;
+const hobbyString = `My hobby is ${hobby}`;
 
 
 
